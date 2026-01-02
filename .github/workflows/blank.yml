@@ -1,0 +1,8 @@
+name: Hello World
+on: workflow_dispatch
+jobs:
+  hello:
+    runs-on: ubuntu-latest    #where should this job runs
+    steps: 
+      - name: Hello Step
+        run: echo "Welcome to GHA Demo"
