@@ -5,4 +5,7 @@ jobs:
     runs-on: ubuntu-latest    #where should this job runs
     steps: 
       - name: Hello Step
-        run: echo "Welcome to GHA Demo"
+        run: |
+          echo "this is line one"
+          echo "this is line two"
+        
